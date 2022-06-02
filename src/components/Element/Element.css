@@ -1,0 +1,41 @@
+.costly {
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.elem {
+  background: mediumseagreen;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+
+  animation-name: example;
+  animation-duration: 2s;
+}
+
+@keyframes example {
+  from {
+    background: coral;
+    width: 50%;
+  }
+}
+
+img {
+  border-radius: 5px;
+  max-height: 30px;
+  aspect-ratio: auto;
+}
+
+.tech-debt {
+  display: none;
+}
+
+pre {
+  text-align: left;
+}
